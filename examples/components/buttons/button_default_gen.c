@@ -43,7 +43,7 @@ lv_obj_t * button_default_create(lv_obj_t * parent, const char * button_label)
     if(!style_inited) {
         
         lv_style_init(&style_main);
-        lv_style_set_bg_color(&style_main, lv_color_hex(0x222222));
+        lv_style_set_bg_color(&style_main, lv_color_hex(0xf22222));
         lv_style_set_bg_opa(&style_main, 255);
         lv_style_set_width(&style_main, LV_SIZE_CONTENT);
         lv_style_set_height(&style_main, LV_SIZE_CONTENT);
